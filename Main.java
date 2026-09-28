@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -73,10 +73,34 @@ public class Main {
         // String str = String.valueOf(num);
         // System.out.println("Float as string: " + str + 2);
 
-
-        // ---- byte to string -----
+        // ! ---- byte to string -----
         // byte num = 123;
         // String result = Byte.toString(num);
         // System.out.println("Result: " + result + 2);
+
+        // if else statement
+        // Scanner scanner = new Scanner(System.in);
+
+        // System.out.print("Istediyin meyveni seçin: ");
+        // String fruit = scanner.nextLine();
+
+        // System.out.print("Kilosunu daxil edin: ");
+        // double weight = scanner.nextDouble();
+
+        // double reportBanan = 0.5 * weight;
+        // double reportAlma = 0.3 * weight;
+        // double reportArmud = 0.8 * weight;
+
+        // if (fruit.equals("alma")) {
+        // System.out.println("Alma qiymeti: " + reportAlma + " AZN");
+        // } else if (fruit.equals("armud")) {
+        // System.out.println("Armud qiymeti: " + reportArmud + " AZN");
+        // } else if (fruit.equals("banan")) {
+        // System.out.println("Banan qiymeti: " + reportBanan + " AZN");
+        // } else {
+        // System.out.println("Unknown fruit.");
+        // }
+
+        // scanner.close();
     }
 }
