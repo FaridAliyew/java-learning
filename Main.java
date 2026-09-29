@@ -104,19 +104,21 @@ public class Main {
         // scanner.close();
 
         // ! Array example
-        // String[] fruits = { "alma", "banan", "armud", "heyva", "nar" };
-        // for (int i = 0; i < fruits.length; i++) {
-        //     System.out.println(fruits[i]);
-        // }
-        // System.out.println("------------");
-        // System.out.println(fruits[0]);
+        String[] fruits = { "alma", "banan", "armud", "heyva", "nar" };
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
+        }
 
-        // char[] letters = { 'f', 'a', 'r', 'i', 'd' };
-        // for (int i = 0; i < letters.length; i++) {
-        //     System.out.println(letters[i]);
-        // }
 
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("------------");
+        System.out.println(fruits[0]);
+
+        char[] letters = { 'f', 'a', 'r', 'i', 'd' };
+        for (int i = 0; i < letters.length; i++) {
+            System.out.println(letters[i]);
+        }
+
+        // Scanner scanner = new Scanner(System.in);
 
         // System.out.print("Enter example name: ");
         // String name1 = scanner.nextLine();
@@ -131,9 +133,10 @@ public class Main {
         // for (int i = 0; i < names.length; i++) {
         //     System.out.println(names[i]);
         // }
+        
+        //! forEach loop
 
         String[] names = { "Farid", "Ali", "Veli" };
-
 
         for (String string : names) {
             System.out.println(string);
